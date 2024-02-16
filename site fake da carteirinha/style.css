@@ -1,0 +1,138 @@
+/* Estilo geral do documento */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+    background-image: linear-gradient(
+        to right,
+        #b8e2f8 0%,
+        #ffffff 100%
+        
+      );
+      
+  }
+  
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #04203a;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    justify-content: space-around ;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Estilo do título principal */
+  header h1 {
+    font-size: 36px;
+    padding: 10px;
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Estilo da seção da foto do aluno */
+  .foto-aluno {
+    width: 200px;
+    height: 200px;
+    
+    overflow: hidden;
+  }
+  
+  /* Estilo da imagem da foto do aluno */
+  .foto-aluno img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #04203a ;
+  }
+  
+  /* Estilo das seções de informações, sobre e projetos do aluno */
+  .informacoes-aluno, .sobre-aluno, .projetos-aluno {
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid #2a3b4b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Estilo dos títulos das seções */
+  .informacoes-aluno h2, .sobre-aluno h2, .projetos-aluno h2 {
+    color: #2a3b4b;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo das listas das seções */
+  .informacoes-aluno ul, .projetos-aluno ul {
+    list-style: none;
+  }
+  
+  /* Estilo dos itens das listas das seções */
+  .informacoes-aluno li, .projetos-aluno li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo do parágrafo da seção sobre */
+  .sobre-aluno p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #2a3b4b;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo do parágrafo do rodapé */
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Estilo responsivo para telas menores que 600px */
+  @media (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .informacoes-aluno, .sobre-aluno, .projetos-aluno {
+      width: 90%;
+    }
+  }
+
+  .secao-vazia {
+    margin-top: 200px;
+  }
+
+ .logomari {
+
+    width: 15%;
+    height: 15%;
+    padding: 0%;
+    border: 0px; 
+}
+
+  
+
+
+ 
+
+  
